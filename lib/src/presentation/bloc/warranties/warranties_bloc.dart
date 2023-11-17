@@ -143,9 +143,7 @@ class WarrantiesBloc extends Bloc<WarrantiesEvent, WarrantiesState> {
       event.warrantyId,
       isLanguageEnglish(language),
     );
-    ///////////////////////////
-    ////////////////////////
-    print("");
+
     if (dataState is DataSuccess) {
       emit(GetWarrantyByIdSuccessState(
           warranty: dataState.data ?? const Warranty()));

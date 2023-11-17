@@ -14,9 +14,6 @@ class SplashCubit extends Cubit<Locale> {
 
   Future<void> getLanguage() async {
     final language = await _getLanguageUseCase();
-    ///////////////////////////
-    ////////////////////////
-    print("");
     emit(Locale(language));
   }
 }
