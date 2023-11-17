@@ -7,8 +7,6 @@ import 'package:aim/src/data/sources/remote/aim/penalties/entity/remote_penalty.
 import 'package:aim/src/data/sources/remote/aim/penalties/request/penalties_list_request.dart';
 import 'package:aim/src/data/sources/remote/aim/penalties/request/penalties_request.dart';
 import 'package:aim/src/data/sources/remote/aim/project/entity/remote_project_data.dart';
-import 'package:aim/src/domain/entities/dashboards/penalties_chart.dart';
-import 'package:aim/src/domain/entities/project/project_data.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

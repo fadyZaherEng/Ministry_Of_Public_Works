@@ -15,8 +15,6 @@ import 'package:aim/src/domain/usecases/get_language_use_case.dart';
 import 'package:aim/src/domain/usecases/get_phases_use_case.dart';
 import 'package:aim/src/domain/usecases/get_project_status_use_case.dart';
 import 'package:aim/src/domain/usecases/get_project_types_use_case.dart';
-import 'package:aim/src/presentation/bloc/penalties/penalties_bloc.dart';
-import 'package:aim/src/presentation/bloc/penalties/penalties_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -175,7 +173,7 @@ class IssuesBloc extends Bloc<IssuesEvent, IssuesState> {
       isLanguageEnglish(language),
     );
     if (dataState is DataSuccess) {
-      emit(GetIssueByIdSuccessState(issue: dataState.data ?? Issue()));
+      emit(GetIssueByIdSuccessState(issue: dataState.data ?? const Issue()));
     } else {
       emit(
         GetIssueByIdFailState(

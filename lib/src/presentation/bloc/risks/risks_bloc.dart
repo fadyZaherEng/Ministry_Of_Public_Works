@@ -179,7 +179,7 @@ class RisksBloc extends Bloc<RisksEvent, RisksState> {
       isLanguageEnglish(language),
     );
     if (dataState is DataSuccess) {
-      emit(GetRiskByIdSuccessState(risk: dataState.data ?? Risk()));
+      emit(GetRiskByIdSuccessState(risk: dataState.data ?? const Risk()));
     } else {
       emit(
         GetRiskByIdFailState(
@@ -214,6 +214,5 @@ class RisksBloc extends Bloc<RisksEvent, RisksState> {
       emit(GetProjectTypesSuccessState(projectTypes: projectTypes));
     }
     emit(HideLoadingState());
-
   }
 }

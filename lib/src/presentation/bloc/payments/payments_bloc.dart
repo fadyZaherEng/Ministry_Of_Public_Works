@@ -176,7 +176,8 @@ class PaymentsBloc extends Bloc<PaymentsEvent, PaymentsState> {
       isLanguageEnglish(language),
     );
     if (dataState is DataSuccess) {
-      emit(GetPaymentByIdSuccessState(payment: dataState.data ?? Payment()));
+      emit(GetPaymentByIdSuccessState(
+          payment: dataState.data ?? const Payment()));
     } else {
       emit(
         GetPaymentByIdFailState(

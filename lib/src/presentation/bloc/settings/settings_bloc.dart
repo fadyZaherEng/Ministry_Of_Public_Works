@@ -16,7 +16,7 @@ class SettingsBloc extends Bloc<SettingsEvent, SettingsState> {
   SettingsBloc(
     this._getLanguageUseCase,
     this._setLanguageUseCase,
-  ) : super(SettingsInitial()) {
+  ) : super(const SettingsInitial()) {
     on<GetDefaultLanguageEvent>(_onGetDefaultLanguageEvent);
     on<ChangeLanguageEvent>(_onChangeLanguageEvent);
   }

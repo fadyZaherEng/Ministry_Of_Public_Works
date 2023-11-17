@@ -31,7 +31,7 @@ class AgreementFormBloc extends Bloc<AgreementFormEvent, AgreementFormState> {
         await _getAgreementByIdUseCase(event.id, isLanguageEnglish(language));
     if (dataState is DataSuccess) {
       emit(GetAgreementByIdSuccessState(
-          agreement: dataState.data ?? Agreement()));
+          agreement: dataState.data ?? const Agreement()));
     } else {
       emit(GetAgreementByIdFailState(
           errorMessage: dataState.error?.message ?? "Try again"));

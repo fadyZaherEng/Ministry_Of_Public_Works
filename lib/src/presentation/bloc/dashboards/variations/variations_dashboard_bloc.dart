@@ -145,7 +145,7 @@ class VariationsDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<VariationsDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetVariationsChartEvent(GetVariationsChartEvent event,
@@ -158,7 +158,7 @@ class VariationsDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetVariationsChartSuccessState(
-          variationsChart: dataState.data ?? VariationsChart(),
+          variationsChart: dataState.data ?? const VariationsChart(),
         ),
       );
     } else {
@@ -181,7 +181,7 @@ class VariationsDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetVariationsCircleChartSuccessState(
-          circleChart: dataState.data ?? CircleChart(),
+          circleChart: dataState.data ?? const CircleChart(),
         ),
       );
     } else {

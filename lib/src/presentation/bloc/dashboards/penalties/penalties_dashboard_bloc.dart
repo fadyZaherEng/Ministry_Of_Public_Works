@@ -147,11 +147,10 @@ class PenaltiesDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<PenaltiesDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
-  FutureOr<void> _onGetPenaltyChartDesignEvent(
-      GetPenaltyChartDesignEvent event,
+  FutureOr<void> _onGetPenaltyChartDesignEvent(GetPenaltyChartDesignEvent event,
       Emitter<PenaltiesDashboardState> emit) async {
     emit(ShowLoadingState());
     final dataState = await _getPenaltiesChartDesignUseCase(
@@ -161,7 +160,7 @@ class PenaltiesDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetPenaltyChartDesignSuccessState(
-          penaltiesChart: dataState.data ?? PenaltiesChart(),
+          penaltiesChart: dataState.data ?? const PenaltiesChart(),
         ),
       );
     } else {
@@ -184,18 +183,20 @@ class PenaltiesDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetPenaltyChartExecutionSuccessState(
-          penaltiesChart: dataState.data ?? PenaltiesChart(),
+          penaltiesChart: dataState.data ?? const PenaltiesChart(),
         ),
       );
     } else {
       emit(
-        GetPenaltyChartExecutionFailState(errorMessage: dataState.error?.message ?? ""),
+        GetPenaltyChartExecutionFailState(
+            errorMessage: dataState.error?.message ?? ""),
       );
     }
     emit(HideLoadingState());
   }
 
-  FutureOr<void> _onSelectIndicatorEvent(SelectIndicatorEvent event, Emitter<PenaltiesDashboardState> emit) {
+  FutureOr<void> _onSelectIndicatorEvent(
+      SelectIndicatorEvent event, Emitter<PenaltiesDashboardState> emit) {
     selectedIndicator = event.indicator;
     emit(SelectIndicatorState(indicator: event.indicator));
   }

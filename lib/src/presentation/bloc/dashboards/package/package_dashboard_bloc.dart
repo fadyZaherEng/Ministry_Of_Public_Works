@@ -4,21 +4,13 @@ import 'package:aim/src/config/utils/helper.dart';
 import 'package:aim/src/config/utils/sort.dart';
 import 'package:aim/src/core/resources/data_state.dart';
 import 'package:aim/src/data/sources/remote/aim/filter/request/filter_request.dart';
-import 'package:aim/src/data/sources/remote/aim/issues/request/issues_list_request.dart';
 import 'package:aim/src/data/sources/remote/aim/package/request/package_list_request.dart';
-import 'package:aim/src/domain/entities/dashboards/analysis_chart_by_phase.dart';
-import 'package:aim/src/domain/entities/dashboards/analysis_chart_by_sector.dart';
 import 'package:aim/src/domain/entities/dashboards/indicator.dart';
 import 'package:aim/src/domain/entities/filter/phase.dart';
 import 'package:aim/src/domain/entities/filter/project_type.dart';
-import 'package:aim/src/domain/entities/issues/issue.dart';
 import 'package:aim/src/domain/entities/package/package.dart';
 import 'package:aim/src/domain/entities/package/package_analysis_chart.dart';
 import 'package:aim/src/domain/entities/package/package_circle_chart.dart';
-import 'package:aim/src/domain/usecases/get_issue_abalysis_chart_by_phase_use_case.dart';
-import 'package:aim/src/domain/usecases/get_issue_abalysis_chart_by_sector_use_case.dart';
-import 'package:aim/src/domain/usecases/get_issue_counts_use_case.dart';
-import 'package:aim/src/domain/usecases/get_issues_list_use_case.dart';
 import 'package:aim/src/domain/usecases/get_language_use_case.dart';
 import 'package:aim/src/domain/usecases/get_package_analysis_chart_use_case.dart';
 import 'package:aim/src/domain/usecases/get_package_list_use_case.dart';
@@ -156,7 +148,7 @@ class PackageDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<PackageDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetPackageAnalysisChartEvent(
@@ -170,7 +162,7 @@ class PackageDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetPackageAnalysisCharSuccessState(
-          packageAnalysisChart: dataState.data ?? PackageAnalysisChart(),
+          packageAnalysisChart: dataState.data ?? const PackageAnalysisChart(),
         ),
       );
     } else {
@@ -193,7 +185,7 @@ class PackageDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetPackageMinistryChartSuccessState(
-          packageCircleChart: dataState.data ?? PackageCircleChart(),
+          packageCircleChart: dataState.data ?? const PackageCircleChart(),
         ),
       );
     } else {

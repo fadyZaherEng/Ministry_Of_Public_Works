@@ -36,9 +36,9 @@ class AgreementBloc extends Bloc<AgreementEvent, AgreementState> {
   List<Agreement> agreements = List.empty(growable: true);
 
   Sort selectedSort = sorts.first;
-  ProjectType selectedProjectType = ProjectType();
-  Month selectedMonth = Month();
-  Year selectedYear = Year();
+  ProjectType selectedProjectType = const ProjectType();
+  Month selectedMonth = const Month();
+  Year selectedYear = const Year();
 
   AgreementBloc(
     this._getAgreementsUseCase,
@@ -161,7 +161,7 @@ class AgreementBloc extends Bloc<AgreementEvent, AgreementState> {
     );
     if (dataState is DataSuccess) {
       emit(GetAgreementByIdSuccessState(
-          agreement: dataState.data ?? Agreement()));
+          agreement: dataState.data ?? const Agreement()));
     } else {
       emit(
         GetAgreementByIdFailState(
@@ -190,7 +190,6 @@ class AgreementBloc extends Bloc<AgreementEvent, AgreementState> {
       emit(GetProjectTypesSuccessState(projectTypes: projectTypes));
     }
     emit(HideLoadingState());
-
   }
 
   FutureOr<void> _onSelectProjectTypeEvent(

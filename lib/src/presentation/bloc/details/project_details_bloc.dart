@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'dart:async';
 
 import 'package:aim/src/config/utils/helper.dart';
@@ -49,7 +51,7 @@ class ProjectDetailsBloc
         event.projectId, _isLanguageEnglish(language));
     if (dataState is DataSuccess) {
       emit(GetProjectDetailsSuccessState(
-          projectDetails: dataState.data ?? ProjectDetails()));
+          projectDetails: dataState.data ?? const ProjectDetails()));
     } else {
       emit(GetProjectDetailsFailState(
           errorMessage: dataState.error?.message ?? "Try Again"));
@@ -99,7 +101,7 @@ class ProjectDetailsBloc
         event.id, isLanguageEnglish(language));
     if (dataState is DataSuccess) {
       emit(GetPhaseSuccessState(
-          projectDetails: dataState.data ?? ProjectDetails()));
+          projectDetails: dataState.data ?? const ProjectDetails()));
     } else {
       emit(GetPhaseFailState(
           errorMessage: dataState.error?.message ?? "Try Again"));

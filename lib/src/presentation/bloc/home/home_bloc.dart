@@ -6,7 +6,6 @@ import 'package:aim/src/domain/entities/home/permission.dart';
 import 'package:aim/src/domain/entities/home/user.dart';
 import 'package:aim/src/domain/usecases/get_home_counts_use_case.dart';
 import 'package:aim/src/domain/usecases/get_home_user_use_case.dart';
-import 'package:aim/src/domain/usecases/get_language_use_case.dart';
 import 'package:aim/src/domain/usecases/get_user_permission_use_case.dart';
 import 'package:aim/src/domain/usecases/set_permission_use_case.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -38,7 +37,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     emit(ShowLoadingState());
     final dataState = await _getHomeCountsUseCase();
     if (dataState is DataSuccess) {
-      emit(GetHomeCountsSuccessState(home: dataState.data ?? Home()));
+      emit(GetHomeCountsSuccessState(home: dataState.data ?? const Home()));
     } else {
       emit(
           GetHomeCountsFailState(errorMessage: dataState.error?.message ?? ""));
@@ -52,7 +51,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     emit(ShowLoadingState());
     final dataState = await _getHomeUserUseCase();
     if (dataState is DataSuccess) {
-      emit(GetHomeUserSuccessState(user: dataState.data ?? User()));
+      emit(GetHomeUserSuccessState(user: dataState.data ?? const User()));
     } else {
       emit(GetHomeUserFailState(errorMessage: dataState.error?.message ?? ""));
     }
@@ -66,7 +65,7 @@ class HomeBloc extends Bloc<HomeEvent, HomeState> {
     if (dataState is DataSuccess) {
       _setPermissionUseCase(dataState.data?.name ?? "");
       emit(GetUserPermissionSuccessState(
-          userPermission: dataState.data ?? UserPermission()));
+          userPermission: dataState.data ?? const UserPermission()));
     } else {
       emit(GetUserPermissionFailState(
           errorMessage: dataState.error?.message ?? ""));

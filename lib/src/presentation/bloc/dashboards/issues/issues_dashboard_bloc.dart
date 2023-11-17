@@ -32,7 +32,8 @@ class IssuesDashboardBloc
   final GetLanguageUseCase _getLanguageUseCase;
   final GetIssueAnalysisChartBySectorUseCase
       _getIssueAnalysisChartBySectorUseCase;
-  final GetIssueAnalysisChartByPhaseUseCase _getIssueAnalysisChartByPhaseUseCase;
+  final GetIssueAnalysisChartByPhaseUseCase
+      _getIssueAnalysisChartByPhaseUseCase;
   final GetIssueCountsUseCase _getIssueCountsUseCase;
 
   List<Phase> phases = [];
@@ -58,7 +59,8 @@ class IssuesDashboardBloc
     on<SelectSortEvent>(_onSelectSortEvent);
     on<SelectPhaseEvent>(_onSelectPhaseEvent);
     on<SelectSectorEvent>(_onSelectSectorEvent);
-    on<GetIssueAnalysisChartBySectorEvent>(_onGetIssueAnalysisChartBySectorEvent);
+    on<GetIssueAnalysisChartBySectorEvent>(
+        _onGetIssueAnalysisChartBySectorEvent);
     on<GetIssueAnalysisChartByPhaseEvent>(_onGetIssueAnalysisChartByPhaseEvent);
     on<GetIssueCountsEvent>(_onGetIssueCountsEvent);
     on<NavigateBackEvent>(_onNavigateBackEvent);
@@ -150,7 +152,7 @@ class IssuesDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<IssuesDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetIssueAnalysisChartBySectorEvent(
@@ -164,7 +166,8 @@ class IssuesDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetIssueAnalysisChartBySectorSuccessState(
-          analysisChartBySector: dataState.data ?? AnalysisChartBySector(),
+          analysisChartBySector:
+              dataState.data ?? const AnalysisChartBySector(),
         ),
       );
     } else {
@@ -187,7 +190,7 @@ class IssuesDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetIssueAnalysisChartByPhaseSuccessState(
-          analysisChartByPhase: dataState.data ?? AnalysisChartByPhase(),
+          analysisChartByPhase: dataState.data ?? const AnalysisChartByPhase(),
         ),
       );
     } else {

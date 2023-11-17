@@ -150,7 +150,7 @@ class RisksDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<RisksDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetRiskAnalysisChartBySectorEvent(
@@ -164,7 +164,8 @@ class RisksDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetRiskAnalysisChartBySectorSuccessState(
-          analysisChartBySector: dataState.data ?? AnalysisChartBySector(),
+          analysisChartBySector:
+              dataState.data ?? const AnalysisChartBySector(),
         ),
       );
     } else {
@@ -187,7 +188,7 @@ class RisksDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetRiskAnalysisChartByPhaseSuccessState(
-          analysisChartByPhase: dataState.data ?? AnalysisChartByPhase(),
+          analysisChartByPhase: dataState.data ?? const AnalysisChartByPhase(),
         ),
       );
     } else {

@@ -158,7 +158,7 @@ class OverviewDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<OverviewDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetOverviewProjectsByPhaseEvent(
@@ -172,7 +172,7 @@ class OverviewDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetOverviewProjectsByPhaseSuccessState(
-          overviewChartByPhase: dataState.data ?? OverviewChartByPhase(),
+          overviewChartByPhase: dataState.data ?? const OverviewChartByPhase(),
         ),
       );
     } else {
@@ -195,7 +195,8 @@ class OverviewDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetOverviewProjectsBySectorSuccessState(
-          overviewChartBySector: dataState.data ?? OverviewChartBySector(),
+          overviewChartBySector:
+              dataState.data ?? const OverviewChartBySector(),
         ),
       );
     } else {

@@ -153,7 +153,7 @@ class VariationBloc extends Bloc<VariationEvent, VariationState> {
     );
     if (dataState is DataSuccess) {
       emit(GetVariationByIdSuccessState(
-          variation: dataState.data ?? Variation()));
+          variation: dataState.data ?? const Variation()));
     } else {
       emit(
         GetVariationByIdFailState(

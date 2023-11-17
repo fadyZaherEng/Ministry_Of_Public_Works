@@ -15,8 +15,8 @@ import 'package:aim/src/domain/usecases/get_milestones_use_case.dart';
 import 'package:aim/src/domain/usecases/get_phases_use_case.dart';
 import 'package:aim/src/domain/usecases/get_project_status_use_case.dart';
 import 'package:aim/src/domain/usecases/get_project_types_use_case.dart';
-import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 part 'milestones_event.dart';
 
@@ -180,7 +180,7 @@ class MilestonesBloc extends Bloc<MilestonesEvent, MilestonesState> {
     );
     if (dataState is DataSuccess) {
       emit(GetMilestoneByIdSuccessState(
-          milestone: dataState.data ?? Milestone()));
+          milestone: dataState.data ?? const Milestone()));
     } else {
       emit(
         GetMilestoneByIdFailState(

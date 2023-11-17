@@ -145,12 +145,11 @@ class DesignDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<DesignDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetDesignChartEvent(
-      GetDesignChartEvent event,
-      Emitter<DesignDashboardState> emit) async {
+      GetDesignChartEvent event, Emitter<DesignDashboardState> emit) async {
     emit(ShowLoadingState());
     final dataState = await _getDesignChartUseCase(
       event.sectorId,
@@ -158,21 +157,19 @@ class DesignDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetDesignChartSuccessState(
-          designChart: dataState.data ?? DesignChart(),
+          designChart: dataState.data ?? const DesignChart(),
         ),
       );
     } else {
       emit(
-        GetDesignChartFailState(
-            errorMessage: dataState.error?.message ?? ""),
+        GetDesignChartFailState(errorMessage: dataState.error?.message ?? ""),
       );
     }
     emit(HideLoadingState());
   }
 
   FutureOr<void> _onGetDesignMinistryEvent(
-      GetDesignMinistryEvent event,
-      Emitter<DesignDashboardState> emit) async {
+      GetDesignMinistryEvent event, Emitter<DesignDashboardState> emit) async {
     emit(ShowLoadingState());
     final dataState = await _getDesignMinistryUseCase(
       event.sectorId,
@@ -180,7 +177,7 @@ class DesignDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetDesignMinistrySuccessState(
-          circleChart: dataState.data ?? CircleChart(),
+          circleChart: dataState.data ?? const CircleChart(),
         ),
       );
     } else {
@@ -191,5 +188,4 @@ class DesignDashboardBloc
     }
     emit(HideLoadingState());
   }
-
 }

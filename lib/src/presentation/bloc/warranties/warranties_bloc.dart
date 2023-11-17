@@ -143,8 +143,12 @@ class WarrantiesBloc extends Bloc<WarrantiesEvent, WarrantiesState> {
       event.warrantyId,
       isLanguageEnglish(language),
     );
+    ///////////////////////////
+    ////////////////////////
+    print("");
     if (dataState is DataSuccess) {
-      emit(GetWarrantyByIdSuccessState(warranty: dataState.data ?? Warranty()));
+      emit(GetWarrantyByIdSuccessState(
+          warranty: dataState.data ?? const Warranty()));
     } else {
       emit(
         GetWarrantyByIdFailState(
@@ -155,7 +159,8 @@ class WarrantiesBloc extends Bloc<WarrantiesEvent, WarrantiesState> {
     emit(HideLoadingState());
   }
 
-  FutureOr<void> _onGetPhasesEvent(GetPhasesEvent event, Emitter<WarrantiesState> emit) async {
+  FutureOr<void> _onGetPhasesEvent(
+      GetPhasesEvent event, Emitter<WarrantiesState> emit) async {
     String language = await _getLanguageUseCase();
     emit(ShowLoadingState());
     if (phases.isEmpty) {
@@ -174,7 +179,8 @@ class WarrantiesBloc extends Bloc<WarrantiesEvent, WarrantiesState> {
     emit(HideLoadingState());
   }
 
-  FutureOr<void> _onSelectPhaseEvent(SelectPhaseEvent event, Emitter<WarrantiesState> emit) {
+  FutureOr<void> _onSelectPhaseEvent(
+      SelectPhaseEvent event, Emitter<WarrantiesState> emit) {
     selectedPhase = event.phase;
     emit(SelectPhaseState(phase: selectedPhase));
   }

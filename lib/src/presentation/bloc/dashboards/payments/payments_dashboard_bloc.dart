@@ -28,8 +28,7 @@ class PaymentsDashboardBloc
   final GetPhasesUseCase _getPhasesUseCase;
   final GetProjectTypesUseCase _getProjectTypesUseCase;
   final GetLanguageUseCase _getLanguageUseCase;
-  final GetPaymentsChartUseCase
-      _getPaymentsChartUseCase;
+  final GetPaymentsChartUseCase _getPaymentsChartUseCase;
 
   List<Phase> phases = [];
   List<ProjectType> sectors = [];
@@ -144,12 +143,11 @@ class PaymentsDashboardBloc
 
   FutureOr<void> _onNavigateBackEvent(
       NavigateBackEvent event, Emitter<PaymentsDashboardState> emit) {
-    emit(NavigateBackState());
+    emit(const NavigateBackState());
   }
 
   FutureOr<void> _onGetPaymentsChartEvent(
-      GetPaymentsChartEvent event,
-      Emitter<PaymentsDashboardState> emit) async {
+      GetPaymentsChartEvent event, Emitter<PaymentsDashboardState> emit) async {
     emit(ShowLoadingState());
     final dataState = await _getPaymentsChartUseCase(
       event.phaseId,
@@ -159,19 +157,19 @@ class PaymentsDashboardBloc
     if (dataState is DataSuccess) {
       emit(
         GetPaymentsChartSuccessState(
-          paymentsChart: dataState.data ?? PaymentsChart(),
+          paymentsChart: dataState.data ?? const PaymentsChart(),
         ),
       );
     } else {
       emit(
-        GetPaymentsChartFailState(
-            errorMessage: dataState.error?.message ?? ""),
+        GetPaymentsChartFailState(errorMessage: dataState.error?.message ?? ""),
       );
     }
     emit(HideLoadingState());
   }
 
-  FutureOr<void> _onSelectIndicatorEvent(SelectIndicatorEvent event, Emitter<PaymentsDashboardState> emit) {
+  FutureOr<void> _onSelectIndicatorEvent(
+      SelectIndicatorEvent event, Emitter<PaymentsDashboardState> emit) {
     selectedIndicator = event.indicator;
     emit(SelectIndicatorState(indicator: selectedIndicator));
   }
