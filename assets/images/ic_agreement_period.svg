@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="ghbc30f52a">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)" style="fill:#898989"/>
+        </clipPath>
+    </defs>
+    <g data-name="ic_agreement period">
+        <path d="M188.987-432.142h-6.9v-6.5h6.9z" transform="translate(-176.844 445.678)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <g style="clip-path:url(#ghbc30f52a)">
+            <path d="M-548.8-93.146h-16.563v-1.824a.987.987 0 0 1 .987-.987h14.59a.987.987 0 0 1 .987.987z" transform="translate(565.75 98.521)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+            <path d="M-455.063-381.6h-12.747a.987.987 0 0 1-.987-.986v-10.531h16.563v6.385" transform="translate(469.189 398.49)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+            <path d="M-373.016-325.84h-11.258v-9.834h13.194v6.6" transform="translate(386.349 341.049)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+            <path d="M0 0h.555v2.6" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(9.446 8.969)"/>
+            <path d="M0-17.744a.665.665 0 0 1 .652-.536.665.665 0 0 1 .665.664.665.665 0 0 1-.665.664" transform="translate(7.355 27.244)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+            <path d="M-22.031 0a.665.665 0 0 1 .665.664.665.665 0 0 1-.665.664.665.665 0 0 1-.659-.571.665.665 0 0 1-.01-.093" transform="translate(30.039 10.292)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+            <path d="M0 0v2.06h.622" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(2.778 2.03)"/>
+            <path d="M0 0v2.06h.622" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(6.504 2.03)"/>
+            <path d="M0 0v2.06h.622" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(10.193 2.03)"/>
+            <path d="M0 0v2.06h.622" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(13.881 2.03)"/>
+            <path d="M-205.97-102.884a3.107 3.107 0 0 1-3.108 3.105 3.107 3.107 0 0 1-3.108-3.105 3.107 3.107 0 0 1 3.108-3.105 3.107 3.107 0 0 1 3.108 3.105z" transform="translate(225.579 117.749)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+            <path d="m0-22 .687.535.917-1.2" transform="translate(15.719 36.969)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42">
+    <defs>
+        <clipPath id="s86vad2a5a">
+            <path data-name="Rectangle 328" transform="translate(-.417)" style="fill:#cacaca" d="M0 0h42v42H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(.417)" style="clip-path:url(#s86vad2a5a)">
+        <path data-name="Path 666" d="m19.657 1.1-.994-.99a.946.946 0 0 0-1.337 0L8.172 9.264a.946.946 0 0 0 0 1.337l.994.994a.946.946 0 0 0 1.337 0l9.154-9.154a.946.946 0 0 0 0-1.341z" transform="translate(5.965 -.125)" style="fill:#cacaca"/>
+        <path data-name="Path 667" d="M26.392 10.544 19.57 3.721 11.89 11.4l6.822 6.822z" transform="translate(8.962 2.791)" style="fill:#cacaca"/>
+        <path data-name="Path 668" d="m27.954 9.4.994.994a.946.946 0 0 1 0 1.337l-9.154 9.154a.946.946 0 0 1-1.338 0l-.994-.994a.945.945 0 0 1 0-1.337L26.616 9.4a.946.946 0 0 1 1.338 0z" transform="translate(12.933 6.843)" style="fill:#cacaca"/>
+        <path data-name="Path 669" d="M22.287 9.6 1.984 27.8c-4.87 4.367.751 9.986 5.117 5.117l18.206-20.3z" transform="translate(.12 7.198)" style="fill:#cacaca"/>
+        <path data-name="Path 670" d="M23.768 7.922 16.094 15.6l2.5 2.5 7.674-7.674z" transform="translate(12.115 5.942)" style="fill:#cacaca"/>
+        <path data-name="Path 671" d="m12.661 12.162 7.674-7.674-2.5-2.5-7.67 7.678z" transform="translate(7.667 1.494)" style="fill:#cacaca"/>
+        <path data-name="Path 672" d="m17.759 5.2 3.057 3.057 1.224-1.273a1.034 1.034 0 0 0-.229-1.384l-1.393-1.4a1.033 1.033 0 0 0-1.386-.229z" transform="translate(13.363 2.845)" style="fill:#cacaca"/>
+    </g>
+</svg>

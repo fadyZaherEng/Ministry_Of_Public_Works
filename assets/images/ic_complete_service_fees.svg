@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="bpz255zhba">
+            <path data-name="Rectangle 1301" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#bpz255zhba)">
+        <path data-name="Path 3004" d="M17.556 4.427H.391v2.411h17.165z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 3005" d="M12.987 15.148H1.882a1.49 1.49 0 0 1-1.491-1.49V3.6a1.49 1.49 0 0 1 1.491-1.49h14.183a1.49 1.49 0 0 1 1.491 1.49v7.892" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 3006" d="M6.092 9.447H2.871v3.387h3.221z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 3007" d="M13.437 12.834H9.169v-1.775h5.907v.412" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 3008" d="M12.453 9.447h2.623" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 3009" d="M16.3 17.888a3.311 3.311 0 1 0-3.311-3.311 3.311 3.311 0 0 0 3.311 3.311z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 3010" d="m15.469 14.708.683.567.977-1.4" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

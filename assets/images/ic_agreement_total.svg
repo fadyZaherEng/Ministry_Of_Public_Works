@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="eli3c0wmca">
+            <path data-name="Rectangle 894" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#eli3c0wmca)">
+        <path data-name="Path 2373" d="m.391 15.434 8.438 2.261a1.213 1.213 0 0 0 2.344 0l8.437-2.261" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2374" d="m1.181 15.5.38-1.417L10 16.345l8.439-2.261.38 1.417" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2375" d="M8.828 17.526a1.213 1.213 0 0 1 2.344 0" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2376" d="m10 16.345-8.01-3.489" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2377" d="m10 16.345 8.01-3.489" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2378" d="m10.541 5.763-.191-.079a.707.707 0 0 0-.541 1.307L10 7.07l.191.079a.707.707 0 0 1-.541 1.307l-.191-.079" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2379" d="M10 5.513v-.4" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2380" d="M10 9.023v-.431" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2381" d="M10 10.586A3.516 3.516 0 1 0 6.484 7.07 3.516 3.516 0 0 0 10 10.586z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2382" d="m10.395 1.515.95.542 1.1.006a.775.775 0 0 1 .667.382l.557.954.954.557a.776.776 0 0 1 .382.732l.005 1.038.549.963a.773.773 0 0 1-.007.777l-.542.95-.006 1.1a.775.775 0 0 1-.382.667l-.954.558-.557.954a.775.775 0 0 1-.732.382l-1.038.006-.963.549a.773.773 0 0 1-.777-.007l-.95-.542-1.1-.006a.775.775 0 0 1-.667-.382l-.557-.954-.954-.557a.775.775 0 0 1-.382-.732l-.005-1.037-.549-.963a.773.773 0 0 1 .007-.777l.542-.95.006-1.1a.775.775 0 0 1 .382-.667l.954-.558.557-.954a.775.775 0 0 1 .732-.382l1.038-.006.963-.549a.773.773 0 0 1 .777.006z" style="fill-rule:evenodd;fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+    </g>
+</svg>

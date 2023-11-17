@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+
+  <g id="ic_warranties" transform="translate(0 -0.005)">
+    <g id="Group_179" data-name="Group 179" transform="translate(0 0.005)">
+      <g id="Group_178" data-name="Group 178">
+        <path id="Path_755" data-name="Path 755" class="cls-1" d="M0,0V20.559a3.114,3.114,0,0,0,.377,1.079,1.867,1.867,0,0,0,1.738.96,1.877,1.877,0,0,0,1.758-.955,2.919,2.919,0,0,0,.348-.99v-3.01H18.092V0ZM3.363,15.647,1.878,13.875l1.078-.9.574.684L5.015,12.39l.912,1.07Zm0-4.649L1.878,9.226l1.078-.9.574.685L5.015,7.741l.912,1.07Zm0-4.65L1.878,4.576l1.078-.9.574.684L5.015,3.091l.912,1.07Zm12.468,7.7H7.023V12.64h8.809Zm0-4.2H7.023V8.436h8.809Zm0-4.2H7.023V4.232h8.809Z" transform="translate(0 -0.005)"/>
+      </g>
+    </g>
+    <g id="Group_181" data-name="Group 181" transform="translate(2.114 19.05)">
+      <g id="Group_180" data-name="Group 180">
+        <path id="Path_756" data-name="Path 756" class="cls-1" d="M48.621,406.306v1.68l0,.033a4.2,4.2,0,0,1-.539,1.591,3.257,3.257,0,0,1-2.97,1.649H63.6a3.4,3.4,0,0,0,3.4-3.4v-1.558H48.621Z" transform="translate(-45.109 -406.306)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="ylhxvln3ga">
+            <path data-name="Rectangle 1289" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#ylhxvln3ga)">
+        <path data-name="Path 2933" d="M19.609 3.507v12.954a1.412 1.412 0 0 1-1.415 1.408H1.806a1.412 1.412 0 0 1-1.415-1.408V3.507" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2934" d="M16.748 3.507H3.252" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2935" d="M3.19 3.523a1.4 1.4 0 0 0-2.8 0v12.965a1.323 1.323 0 0 1 1.4-1.3 1.4 1.4 0 0 1 1.223.716h.177z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2936" d="M18.21 15.189a1.349 1.349 0 0 1 1.4 1.331v-13a1.4 1.4 0 0 0-2.8 0v12.386h.177a1.4 1.4 0 0 1 1.223-.717z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2937" d="M11.4 6.915H4.943v7.547H11.4z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2938" d="M15.057 5.535h-1.949v8.383h1.948z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2939" d="m13.108 13.918.859 1.923h.233l.859-1.923z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2940" d="M13.158 7.669h1.848" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="ncdqanguqa">
+            <path data-name="Rectangle 885" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#ncdqanguqa)">
+        <path data-name="Path 2290" d="M14.909.391H5.091v1.562h9.818z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2291" d="M14.147 2.23v3.146c0 2.95-2.53 2.342-4.147 4.624-1.617-2.282-4.147-1.674-4.147-4.624V2.23" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2292" d="M5.853 17.77v-3.146c0-2.95 2.53-2.342 4.147-4.624 1.617 2.282 4.147 1.674 4.147 4.624v3.146" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2293" d="M6 6.156a3.875 3.875 0 0 1 2.01-.662c1.546 0 1.653.9 3.2.9 1.422 0 1.627-.765 2.854-.887" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2294" d="M14.909 18.047H5.091v1.563h9.818z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2295" d="M6 13.842a3.89 3.89 0 0 0 2.014.664c1.546 0 1.653-.9 3.2-.9 1.433 0 1.63.777 2.882.89" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+    </g>
+</svg>

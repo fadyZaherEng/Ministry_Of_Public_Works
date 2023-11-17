@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="59n5mcj2ya">
+            <path data-name="Rectangle 347" style="fill:#fff" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#59n5mcj2ya)">
+        <path data-name="Path 708" d="M13.507 2.247a1.741 1.741 0 0 0-3.015 0L.236 20.013a1.74 1.74 0 0 0 1.507 2.611h20.514a1.741 1.741 0 0 0 1.507-2.611zM12 19.2a1.2 1.2 0 1 1 1.2-1.2 1.2 1.2 0 0 1-1.2 1.2zm1.2-5.792a1.2 1.2 0 1 1-2.4 0V7.529a1.2 1.2 0 1 1 2.4 0z" style="fill:#fff"/>
+    </g>
+</svg>

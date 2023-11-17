@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="lf9q3st09a">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#lf9q3st09a)">
+        <path d="M-48.53-93.569h-.053a1.412 1.412 0 0 1-1.412-1.412 1.412 1.412 0 0 1 1.412-1.412h.053a1.412 1.412 0 0 1 1.412 1.412 1.412 1.412 0 0 1-1.412 1.412z" transform="translate(57.272 101.744)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M251.264-345.959h-2.877v-7.134h2.877z" transform="translate(-241.11 362.748)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-275.187 0a8.314 8.314 0 0 0-8.305 8.323 8.311 8.311 0 0 0 2.826 6.255l-.156 1.794 1.86-.634a8.256 8.256 0 0 0 3.777.908 8.314 8.314 0 0 0 8.305-8.323A8.314 8.314 0 0 0-275.187 0z" transform="translate(283.884 2.747)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M0 0a4.4 4.4 0 0 1 4.394 4.4" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(15.216 .606)"/>
+        <path d="M0 0a2.013 2.013 0 0 1 2.011 2.015" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(15.627 2.583)"/>
+    </g>
+</svg>

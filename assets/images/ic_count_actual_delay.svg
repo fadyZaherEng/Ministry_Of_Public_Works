@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="6aru87lqea">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#6aru87lqea)" data-name="ic_count_actual delay">
+        <path d="M0-455.221v-13.739h13.431v14.16a1.822 1.822 0 0 1-1.837 1.74" transform="translate(3.084 472.667)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M0-11.047h0a1.7 1.7 0 0 1 .033-.333H11.09a1.7 1.7 0 0 0-.033.333 1.664 1.664 0 0 0 1.594 1.673H1.7A1.662 1.662 0 0 1 0-11.047z" transform="translate(2.026 28.982)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-493.363-72.318h-14.89v-1.295a.888.888 0 0 1 .888-.888h13.115a.888.888 0 0 1 .888.888z" transform="translate(511.337 76.025)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-147.236 0h1.46v15.9h-5.9" transform="translate(163.751 3.707)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-27.167 0h-.82v1.873" transform="translate(32.904 .391)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-27.168 0h-.82v1.873" transform="translate(35.7 .391)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-27.168 0h-.82v1.873" transform="translate(38.495 .391)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-27.168 0h-.82v1.873" transform="translate(41.291 .391)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-27.168 0h-.82v1.873" transform="translate(44.086 .391)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M163.921-457.479h9.987v7.467h-9.987z" transform="translate(-159.119 464.076)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M0-22.551a.845.845 0 0 1 .828-.681.844.844 0 0 1 .844.844.844.844 0 0 1-.844.844" transform="translate(10.547 31.904)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-27.973 0a.844.844 0 0 1 .844.844.844.844 0 0 1-.844.844.844.844 0 0 1-.836-.727.848.848 0 0 1-.008-.118" transform="translate(39.349 10.361)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-63.228-82.17a.954.954 0 0 1-.954.954.954.954 0 0 1-.954-.954v-1.53a.954.954 0 0 1 .954-.954.954.954 0 0 1 .954.954z" transform="translate(72.47 93.262)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

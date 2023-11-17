@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="lt871f7yha">
+            <path data-name="Rectangle 884" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#lt871f7yha)">
+        <path data-name="Path 2279" d="M11.373 3.137H8.627" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2280" d="M14.51 3.137h1.961v16.471H3.529V3.137H5.49" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2281" d="M7.059.392v1.961" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2282" d="M8.627 2.353H5.49v1.569h3.137z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2283" d="M12.941.392v1.961" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2284" d="M14.51 2.353h-3.137v1.569h3.137z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2285" d="M10.675 8.223 9.09 10.6" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2286" d="M13.8 9.412c0 .337-.356.623-.439.933s.077.746-.086 1.028-.616.356-.848.588-.3.682-.588.848-.706 0-1.028.086-.6.439-.933.439-.623-.356-.933-.439-.746.077-1.028-.086-.356-.616-.588-.848-.683-.3-.848-.588 0-.706-.086-1.028-.439-.6-.439-.933.356-.623.439-.933-.077-.746.086-1.028.616-.356.848-.588.3-.683.588-.848.706 0 1.028-.086.6-.439.933-.439.623.356.933.439.746-.077 1.028.086.356.616.588.848.682.3.848.588 0 .706.086 1.028.439.596.439.933z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2287" d="M5.1 14.9h9.8" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2288" d="M5.1 16.471h8.627" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2289" d="M5.1 18.039h7.843" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="ooavsyhxda">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#ooavsyhxda)">
+        <path d="M-132.134-66.067a1.994 1.994 0 0 0-1.994-1.994 1.994 1.994 0 0 0-1.994 1.994 1.994 1.994 0 0 0 1.994 1.994 1.994 1.994 0 0 0 1.994-1.994z" transform="translate(144.128 73.931)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-171.138 0h-4.248a.917.917 0 0 0-.917.917v2.528h6.082V.917a.917.917 0 0 0-.917-.917z" transform="translate(183.263 9.858)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-560.115-405.664v-11.165a1.078 1.078 0 0 0-1.078-1.078h-14.749a1.078 1.078 0 0 0-1.078 1.078v11.165" transform="translate(578.568 420.682)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M0 0h9.574" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(5.213 4.331)"/>
+        <path d="M-384.81 0v.613h-4.009V0h-7.6v.991a1.216 1.216 0 0 0 1.216 1.216h16.786a1.216 1.216 0 0 0 1.211-1.216V0z" transform="translate(396.815 15.018)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

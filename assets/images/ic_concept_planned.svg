@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="pxx3bhpjoa">
+            <path data-name="Rectangle 1293" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#pxx3bhpjoa)">
+        <path data-name="Path 2945" d="M23.528 19.6a4.118 4.118 0 1 0-3.53 0" transform="translate(-11.763 -7.841)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2946" d="M16.469 14.228a5.642 5.642 0 0 0 1.247-.583l1.7 1.277 1.384-1.387-1.277-1.7a5.646 5.646 0 0 0 .718-1.731l2.106-.3V7.84l-2.106-.3a5.646 5.646 0 0 0-.718-1.731l1.277-1.7-1.382-1.39L17.716 4a5.644 5.644 0 0 0-1.731-.718l-.3-2.106h-1.962l-.3 2.106A5.646 5.646 0 0 0 11.691 4l-1.7-1.277L8.6 4.105l1.277 1.7a5.647 5.647 0 0 0-.718 1.731l-2.106.3V9.8l2.106.3a5.647 5.647 0 0 0 .718 1.731L8.6 13.535l1.386 1.386 1.7-1.277a5.642 5.642 0 0 0 1.247.583" transform="translate(-4.704 -.781)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2947" d="m28.235 29.8-1.765 2.357L24.7 29.8V19.6a.784.784 0 0 1 .784-.784h1.961a.784.784 0 0 1 .784.784z" transform="translate(-16.47 -12.548)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2948" d="M24.7 24.7h3.53" transform="translate(-16.47 -16.47)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2949" d="M24.7 29.412h3.53" transform="translate(-16.47 -19.608)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2950" d="M24.7 51.768h3.53" transform="translate(-16.47 -34.512)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2951" d="M30 29.412v7.452" transform="translate(-20 -19.608)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2952" d="M22.352 58.828h5.1" transform="translate(-14.901 -39.219)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="kkutu6d7wa">
+            <path data-name="Rectangle 47" style="fill:#f8f9fa" d="M0 0h24v24H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#kkutu6d7wa)">
+        <path data-name="Path 174" d="M22 6.5h-6" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="Path 175" d="M6 6.5H2" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="Path 176" d="M13.5 6.5a3.5 3.5 0 1 1-2.52-3.36" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="Path 177" d="M22 17.5h-4" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="Path 178" d="M8 17.5H2" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="Path 179" d="M17.5 17.5a3.5 3.5 0 1 1-1.025-2.475A3.5 3.5 0 0 1 17.5 17.5z" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+    </g>
+</svg>

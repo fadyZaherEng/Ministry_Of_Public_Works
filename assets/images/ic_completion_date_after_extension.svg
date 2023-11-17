@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="46wg5t4tya">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)" style="fill:#898989"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#46wg5t4tya)" data-name="ic_Completion Date After Extension">
+        <path d="M-636.778-286.033a.419.419 0 0 0-.391-.391l-1.165-.194a8.161 8.161 0 0 0-1.255-3.03l.686-.961a.419.419 0 0 0 0-.552l-1.381-1.381a.419.419 0 0 0-.552 0l-.961.686a8.156 8.156 0 0 0-3.03-1.255l-.194-1.165a.419.419 0 0 0-.391-.391h-1.953a.419.419 0 0 0-.391.391l-.194 1.165a8.156 8.156 0 0 0-3.03 1.255l-.961-.686a.419.419 0 0 0-.552 0l-1.381 1.381a.419.419 0 0 0 0 .552l.686.961a8.161 8.161 0 0 0-1.255 3.03l-1.165.194a.419.419 0 0 0-.391.391v1.953a.419.419 0 0 0 .391.391l1.165.194a8.161 8.161 0 0 0 1.255 3.03l-.686.961a.419.419 0 0 0 0 .552l1.381 1.381a.419.419 0 0 0 .552 0l.961-.686a8.157 8.157 0 0 0 3.03 1.255l.194 1.165a.419.419 0 0 0 .391.391h1.953a.419.419 0 0 0 .391-.391l.194-1.165a8.157 8.157 0 0 0 3.03-1.255l.961.686a.419.419 0 0 0 .552 0l1.381-1.381a.419.419 0 0 0 0-.552l-.686-.961a8.161 8.161 0 0 0 1.255-3.03l1.165-.194a.419.419 0 0 0 .391-.391z" transform="translate(656.388 295.057)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M-207.084-414.166a6.262 6.262 0 0 0 6.25-6.25 6.262 6.262 0 0 0-6.25-6.25 6.262 6.262 0 0 0-6.25 6.25 6.262 6.262 0 0 0 6.25 6.25z" transform="translate(217.084 430.416)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M-25.887-51.771a.783.783 0 0 0 .781-.781.783.783 0 0 0-.781-.781.783.783 0 0 0-.781.781.783.783 0 0 0 .781.781z" transform="translate(35.887 62.552)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M0 0v.2" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926" transform="translate(10 4.922)"/>
+        <path d="m0 0 .1.169" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926" transform="translate(7.461 5.602)"/>
+        <path d="m0 0 .169.1" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926" transform="translate(5.602 7.461)"/>
+        <path d="M0 0h.2" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926" transform="translate(4.922 10)"/>
+        <path d="m0-3.236.169-.1" transform="translate(5.602 15.774)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="m0-5.6.1-.169" transform="translate(7.461 20.002)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M0-6.471v-.2" transform="translate(10 21.55)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="m-3.236-5.6-.1-.169" transform="translate(15.774 20.002)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="m-5.6-3.236-.169-.1" transform="translate(20.002 15.774)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M-6.471 0h-.2" transform="translate(21.55 10)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="m-5.6 0-.169.1" transform="translate(20.002 7.461)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="m-3.236 0-.1.169" transform="translate(15.774 5.602)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M0-84.127v-2.539" transform="translate(10 93.346)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path d="M-50.439-29.121-51.961-30" transform="translate(59.762 38.73)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+    </g>
+</svg>

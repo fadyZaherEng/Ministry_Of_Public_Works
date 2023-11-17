@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+    <g data-name="Group 354" transform="translate(.5 .5)">
+        <path d="M30 21.02v-2.04l-1.5-.12a8.527 8.527 0 0 0-1.686-4.06l.979-1.149-1.443-1.444-1.149.979a8.528 8.528 0 0 0-4.06-1.686L21.02 10h-2.04l-.12 1.5a8.528 8.528 0 0 0-4.06 1.686l-1.149-.979-1.444 1.443.979 1.149a8.528 8.528 0 0 0-1.686 4.06l-1.5.12v2.041l1.5.12a8.528 8.528 0 0 0 1.686 4.06l-.979 1.149 1.443 1.443 1.149-.979a8.527 8.527 0 0 0 4.06 1.687l.12 1.5h2.041l.12-1.5a8.528 8.528 0 0 0 4.06-1.686l1.149.979 1.443-1.443-.978-1.15a8.527 8.527 0 0 0 1.686-4.059z" transform="translate(-10 -10)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <circle cx="2" cy="2" r="2" transform="translate(8 7)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M173.469 270h0a3.469 3.469 0 0 0-3.469 3.469v.963a6.123 6.123 0 0 0 6.939 0v-.963a3.469 3.469 0 0 0-3.47-3.469z" transform="translate(-163.469 -259.388)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <circle cx="6" cy="6" r="6" transform="translate(4 4)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

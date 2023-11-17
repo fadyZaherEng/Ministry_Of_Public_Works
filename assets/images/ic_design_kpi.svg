@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="z9nso8y5ha">
+            <path data-name="Rectangle 1298" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#z9nso8y5ha)">
+        <path data-name="Path 2992" d="M7.414 15.859H1.555m3.038-7a4.214 4.214 0 0 1 4.2 4.2v.841H.391v-.841a4.214 4.214 0 0 1 4.201-4.195z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2993" d="M5.593 8.641A2.362 2.362 0 1 0 2.453 7.5a2.362 2.362 0 0 0 3.14 1.141z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2994" d="M17.656 8.73v2.539m-1.171-7.421v2.539m-.785 7.226v2.539m-4.829-7.617h8.739v2.93h-8.739zm0-4.883h8.739v2.93h-8.739zm0 9.766h8.739v2.93h-8.739z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+    </g>
+</svg>

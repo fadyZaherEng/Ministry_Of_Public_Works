@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="lpm12c1xua">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#lpm12c1xua)">
+        <path d="M-327.126-636.78h-8.274a1.6 1.6 0 0 1-1.6-1.6v-16.02a1.6 1.6 0 0 1 1.6-1.6h8.274a1.6 1.6 0 0 1 1.6 1.6v16.021a1.6 1.6 0 0 1-1.6 1.599z" transform="translate(341.263 656.389)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M0 0h6.97" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(6.515 17.123)"/>
+        <path d="M0 0h2.673" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(7.522 1.963)"/>
+        <path d="M0 0h.794" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(11.684 1.963)"/>
+        <path d="m-210.679-156.04-.842.842-2.584-2.584.842-.842a.377.377 0 0 0 0-.533l-1.206-1.206a1.323 1.323 0 0 0-1.871 0l-.292.292a1.387 1.387 0 0 0 0 1.961l5.437 5.437a1.387 1.387 0 0 0 1.961 0l.292-.292a1.323 1.323 0 0 0 0-1.871l-1.206-1.206a.377.377 0 0 0-.531.002z" transform="translate(222.796 166.508)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

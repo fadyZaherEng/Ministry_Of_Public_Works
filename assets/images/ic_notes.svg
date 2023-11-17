@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="dg0qscs34a">
+            <path data-name="Rectangle 901" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#dg0qscs34a)">
+        <path data-name="Path 2423" d="M5.508 16.762v2.847H19.18V6.25h-1.687" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2424" d="m10.156 3.846-5.8-1.553L.82 15.5l9.433 2.528 4.784-2.762 2.528-9.433-3.311-.887" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2425" d="m10.3 17.837.96-3.585 3.584.96" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2426" d="m5.659 4.986 1.49.4" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2427" d="M5.154 6.873 14.587 9.4" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2428" d="M9.314 10.212 4.6 8.948" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2429" d="m3.717 12.231-.505 1.887 3.773 1.011.505-1.887z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2430" d="M14.552 4.278a1.953 1.953 0 1 0-2.205-1.663 1.953 1.953 0 0 0 2.205 1.663z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2431" d="M12.229 2.346a1.953 1.953 0 1 0 2.049 2.079" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+        <path data-name="Path 2432" d="m10.93 5.7-.554.554" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926"/>
+    </g>
+</svg>

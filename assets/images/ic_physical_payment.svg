@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <clipPath id="8iquzjo2ga">
+            <path data-name="Rectangle 1191" style="fill:#cacaca" d="M0 0h40v40H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#8iquzjo2ga)">
+        <path data-name="Path 2752" d="M6.172 22.392h3.565v2.632H6.172z" style="fill:#cacaca"/>
+        <path data-name="Path 2753" d="M37.63 15.422H2.37a2.34 2.34 0 0 0-2.34 2.34v19.9A2.34 2.34 0 0 0 2.37 40h35.26a2.34 2.34 0 0 0 2.34-2.34v-19.9a2.34 2.34 0 0 0-2.34-2.338zm-28.162 19.5H3.676v-2.34h5.792zm2.609-9.508a1.952 1.952 0 0 1-1.95 1.95H5.782a1.952 1.952 0 0 1-1.95-1.95V22a1.952 1.952 0 0 1 1.95-1.95h4.345a1.952 1.952 0 0 1 1.95 1.95zm6.343 9.508h-5.792v-2.34h5.792zm8.952 0H21.58v-2.34h5.792zm8.952 0h-5.792v-2.34h5.792z" style="fill:#cacaca"/>
+        <path data-name="Path 2754" d="m31.446 5.685-5-5a2.34 2.34 0 0 0-3.31 0l-12.4 12.4h13.736z" style="fill:#cacaca"/>
+        <path data-name="Path 2755" d="M31.3 13.081 34.961 9.2 33.1 7.34l-5.413 5.741z" style="fill:#cacaca"/>
+        <path data-name="Path 2756" d="M37.63 13.081a4.662 4.662 0 0 1 1.441.228l-2.453-2.453-2.1 2.226z" style="fill:#cacaca"/>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="278fe249ta">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)" style="fill:#898989"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#278fe249ta)">
+        <path d="M391.443-652.048h-1.523v-17.284h1.523z" transform="translate(-378.497 669.722)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+    <path d="m0 0 1.028 1.542L2.056 0z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(16.299 16.809)"/>
+    <g style="clip-path:url(#278fe249ta)">
+        <path d="M0 0v1.36" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(17.225 18.249)"/>
+    </g>
+    <path d="M0 0h1.825" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(16.416 2.481)"/>
+    <g style="clip-path:url(#278fe249ta)">
+        <path d="M-35.46 0a1.07 1.07 0 0 0-1.07 1.07v15.226h2.134V1.07A1.07 1.07 0 0 0-35.46 0z" transform="translate(52.685 .391)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-382.47-572.672h-11.543v-17.284h11.543a1.234 1.234 0 0 1 1.234 1.234v14.815a1.234 1.234 0 0 1-1.234 1.235z" transform="translate(395.719 590.347)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M135.932-583.9h-5.954v-3.62h5.954z" transform="translate(-126.17 590.306)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M0 0h5.954" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(3.808 8.861)"/>
+        <path d="M0 0h5.954" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(3.808 10.384)"/>
+        <path d="m-79.969-64.108-1.207-.68-1.207.68v-1.935h2.414z" transform="translate(85.729 83.718)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

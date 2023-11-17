@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="qsdjk2s0da">
+            <path d="M0-682.665h20v20H0z" transform="translate(0 682.665)"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#qsdjk2s0da)">
+        <path d="M0 0h3.345a.8.8 0 0 1 .8.793v.028a.792.792 0 0 1-.359.635" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(11.103 14.964)"/>
+        <path d="m0 0 1.931 1.506a.924.924 0 0 0 .744.244.954.954 0 0 0 .156-.035" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" transform="translate(7.866 14.713)"/>
+        <path d="M-418.565-190.16a.811.811 0 0 0-.819-.755h-4.384a.868.868 0 0 0 .325-.206l.064-.07a.871.871 0 0 0-.065-1.175s-4.069-3.533-4.713-3.533h-3.04v3.137h.322a1.94 1.94 0 0 1 1.729 1.107c.682 1 1.663 2.325 2.1 2.324 1.329 0 6.891-.009 7.831-.009a.745.745 0 0 0 .65-.82z" transform="translate(434.466 207.343)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M16.212-299.592h-2.879v-3.822h2.878z" transform="translate(-12.943 314.525)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-393.664-278.111h-10.717a1.164 1.164 0 0 1-1.164-1.164v-6.066a1.164 1.164 0 0 1 1.164-1.164h10.717a1.164 1.164 0 0 1 1.164 1.164v6.066a1.164 1.164 0 0 1-1.164 1.164z" transform="translate(412.11 288.494)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-297.186 0h-8.331a.638.638 0 0 1-.638.638v3.68a.638.638 0 0 1 .638.638h8.331a.638.638 0 0 1 .638-.638V.638a.638.638 0 0 1-.638-.638z" transform="translate(314.438 3.708)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M-61.463-30.732a.928.928 0 0 1-.927.928.928.928 0 0 1-.928-.928.928.928 0 0 1 .928-.928.928.928 0 0 1 .927.928z" transform="translate(75.478 36.919)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>

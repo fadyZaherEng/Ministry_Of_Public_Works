@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+    <g transform="translate(-9.501 -9.5)">
+        <path d="M190.71 200.31h-4.163l-.833-3.331 2.914-6.245 2.914 6.245z" transform="translate(-168.627 -173.517)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path transform="translate(20.001 17.282)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" d="M0 0v6.245"/>
+        <path d="M209.96 421.674v2.5a.833.833 0 0 1-.833.833h-2.5a.833.833 0 0 1-.833-.833v-2.5" transform="translate(-187.878 -395.005)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <circle cx=".833" cy=".833" transform="rotate(-1.645 826.982 -655.01)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" r=".833"/>
+        <path d="M213.314 13.331h-1.249a1.249 1.249 0 0 1-1.249-1.249v-.833A1.249 1.249 0 0 1 212.065 10h1.249a1.249 1.249 0 0 1 1.249 1.249v.833a1.249 1.249 0 0 1-1.249 1.249z" transform="translate(-192.689)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path transform="translate(21.674 11.665)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" d="M0 0h5.829"/>
+        <path transform="translate(12.499 11.665)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" d="M0 0h5.829"/>
+        <path d="M100.367 95.322h0a4.92 4.92 0 0 1 4.841-5h2.824a4.92 4.92 0 0 1 4.841 5h0" transform="translate(-86.619 -77.082)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path d="M441.755 21.29A1.249 1.249 0 1 0 443 20.041a1.249 1.249 0 0 0-1.245 1.249z" transform="translate(-414.252 -9.625)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <circle cx="1.249" cy="1.249" r="1.249" transform="translate(10.001 10.416)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path transform="translate(12.499 18.14)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" d="M0 0h2.498v2.498H0z"/>
+        <path transform="translate(25.005 18.14)" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" d="M0 0h2.498v2.498H0z"/>
+    </g>
+</svg>

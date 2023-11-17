@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <clipPath id="bzjmnd981a">
+            <path data-name="Rectangle 865" style="fill:#fff" d="M0 0h20v20H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="ic_agreement Sign_date" style="clip-path:url(#bzjmnd981a)">
+        <path data-name="Path 2116" d="M4.705 3.528a.784.784 0 0 1-.784-.784V1.175a.784.784 0 1 1 1.569 0v.785" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2117" d="M8.235 3.528a.784.784 0 0 1-.784-.784V1.175a.784.784 0 1 1 1.569 0v.785" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2118" d="M11.765 3.528a.785.785 0 0 1-.785-.784V1.175a.785.785 0 0 1 1.569 0v.785" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2119" d="M15.3 3.528a.784.784 0 0 1-.785-.784V1.175a.784.784 0 1 1 1.569 0v.785" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2120" d="M17.455 19.609H2.545a.781.781 0 0 1-.781-.781V2.741a.781.781 0 0 1 .781-.781h14.91a.781.781 0 0 1 .781.781v16.087a.781.781 0 0 1-.781.781z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2121" d="M10.784 10.588H9.216v1.569h1.569z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2122" d="M10.784 7.058H9.216v1.569h1.569z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2123" d="M7.254 10.588H5.686v1.569h1.568z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2124" d="M10.784 14.118H9.216v1.569h1.569z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2125" d="M7.254 14.118H5.686v1.569h1.568z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2126" d="M7.254 7.058H5.686v1.569h1.568z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2127" d="M14.314 10.588h-1.569v1.569h1.569z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2128" d="M14.314 7.058h-1.569v1.569h1.569z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2129" d="M12.745 17.648v-3.53h3.53" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2130" d="M12.745 17.648H3.724V5.1h12.551v9.021z" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path data-name="Path 2131" d="M1.763 5.1h16.081" style="fill:none;stroke:#898989;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+    </g>
+</svg>
