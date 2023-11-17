@@ -178,7 +178,7 @@ class _DashboardsScreenState extends State<DashboardsScreen> {
                   _navigateToOverviewDashboardScreen(context);
                 },
               ),
-              const Expanded(child: const SizedBox(width: 16)),
+              const Expanded(child: SizedBox(width: 16)),
             ],
           ),
           const SizedBox(height: 16),

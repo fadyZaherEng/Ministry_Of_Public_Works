@@ -12,8 +12,6 @@ import 'package:aim/src/domain/entities/filter/project_type.dart';
 import 'package:aim/src/presentation/bloc/dashboards/design/design_dashboard_bloc.dart';
 import 'package:aim/src/presentation/screens/dashboard/design/widget/design_dashboard_widget.dart';
 import 'package:aim/src/presentation/screens/dashboard/design/widget/design_list_card_widget.dart';
-import 'package:aim/src/presentation/screens/dashboard/issues/widget/issue_list_card_widget.dart';
-import 'package:aim/src/presentation/screens/dashboard/issues/widget/issues_dashboard_widget.dart';
 import 'package:aim/src/presentation/screens/dashboard/open_dashboard_filter_bottom_sheet.dart';
 import 'package:aim/src/presentation/widgets/empty_data_widget.dart';
 import 'package:aim/src/presentation/widgets/shared_dashboard_screen.dart';
@@ -71,7 +69,7 @@ class _DesignDashboardScreenState extends BaseState<DesignDashboardScreen> {
 
     _scrollController.addListener(() {
       if (_scrollController.position.pixels >=
-          _scrollController.position.maxScrollExtent &&
+              _scrollController.position.maxScrollExtent &&
           isPaginationLoad == false) {
         isPaginationLoad = true;
         _designRequest =
@@ -202,7 +200,8 @@ class _DesignDashboardScreenState extends BaseState<DesignDashboardScreen> {
 
   void _initDashboard() {
     _designDashboardBloc.add(GetDesignChartEvent(
-      sectorId: (_selectedSector.id ?? "").isEmpty ? "a" : _selectedSector.id ?? "",
+      sectorId:
+          (_selectedSector.id ?? "").isEmpty ? "a" : _selectedSector.id ?? "",
     ));
     _designDashboardBloc.add(GetDesignMinistryEvent(
       sectorId: _selectedSector.id ?? "",
@@ -279,7 +278,7 @@ class _DesignDashboardScreenState extends BaseState<DesignDashboardScreen> {
       sectors: _designDashboardBloc.sectors,
       selectedSector: _selectedSector,
       isHavePhase: false,
-      onTap: (phase, sector,_) {
+      onTap: (phase, sector, _) {
         _designDashboardBloc.add(SelectPhaseEvent(phase: phase));
         _designDashboardBloc.add(SelectSectorEvent(sector: sector));
         _designDashboardBloc.add(const NavigateBackEvent());
