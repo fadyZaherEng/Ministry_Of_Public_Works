@@ -30,10 +30,9 @@ abstract class PaymentsApiService {
   );
 
   @GET("Dashboards/PaymentsChart")
-  Future<HttpResponse<AIMChartResponse<RemotePaymentsChart>>>
-  getPaymentsChart(
-      @Query("phase") String phaseId,
-      @Query("sector") String sectorId,
-      @Query("Color") int color,
-      );
+  Future<HttpResponse<AIMChartResponse<RemotePaymentsChart>>> getPaymentsChart(
+    @Query("phase") String phaseId,
+    @Query("sector") String sectorId,
+    @Query("Color") int color,
+  );
 }
