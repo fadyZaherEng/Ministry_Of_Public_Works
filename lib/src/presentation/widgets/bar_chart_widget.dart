@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
@@ -29,39 +31,46 @@ class BarChartWidget extends StatelessWidget {
       height: height,
       child: SfCartesianChart(
         tooltipBehavior: TooltipBehavior(
-            enable: true,
-            tooltipPosition: TooltipPosition.auto,
-            builder: (dataa, dynamic point, dynamic series, int pointIndex,
-                int seriesIndex) {
-              return Container(
-                  padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
-                  decoration: BoxDecoration(
-                    color: Colors.black,
-                    borderRadius: BorderRadius.circular(6),
-                    border: Border.all(width: 1,color: Colors.white)
-                  ),
-                  child: Text(
-                    '${data[seriesIndex].data[pointIndex].y}',
-                    style: const TextStyle(color: Colors.white),
-                  ));
-            }),
+          enable: true,
+          tooltipPosition: TooltipPosition.auto,
+          builder: (
+            dataa,
+            dynamic point,
+            dynamic series,
+            int pointIndex,
+            int seriesIndex,
+          ) {
+            return Container(
+              padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+              decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.circular(6),
+                  border: Border.all(width: 1, color: Colors.white)),
+              child: Text(
+                '${data[seriesIndex].data[pointIndex].y}',
+                style: const TextStyle(color: Colors.white),
+              ),
+            );
+          },
+        ),
         primaryXAxis: CategoryAxis(
           labelRotation: labelRotation,
           maximumLabels: maximumLabels,
           majorGridLines: const MajorGridLines(width: 0),
           axisLine: const AxisLine(width: 0),
-          labelStyle: Theme.of(context).textTheme.caption?.copyWith(
-                letterSpacing: -0.24,
-              ),
+          labelStyle: Theme.of(context)
+              .textTheme
+              .caption
+              ?.copyWith(letterSpacing: -0.24),
         ),
         primaryYAxis: NumericAxis(
           minimum: minimum,
           maximum: maximum,
           interval: interval,
-          labelStyle: Theme.of(context).textTheme.caption?.copyWith(
-                letterSpacing: -0.22,
-                fontSize: 11,
-              ),
+          labelStyle: Theme.of(context)
+              .textTheme
+              .caption
+              ?.copyWith(letterSpacing: -0.22, fontSize: 11),
           majorGridLines: const MajorGridLines(width: 0),
           axisLine: const AxisLine(width: 0),
         ),

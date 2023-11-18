@@ -22,7 +22,7 @@ class SkeletonItemWidget extends StatelessWidget {
                 children: [
                   SkeletonLine(
                     style: SkeletonLineStyle(
-                        height: 7, width: 100, maxLength: double.infinity),
+                        height: 7, width: 100, maxLength: double.infinity,),
                   ),
                   SizedBox(
                     height: 8,

@@ -23,10 +23,14 @@ class ButtonWidget extends StatelessWidget {
       width: double.infinity,
       height: 45,
       decoration: BoxDecoration(
-        gradient: LinearGradient(colors: [
-          backgroundColor,
-          backgroundColor.withOpacity(0.5),
-        ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
+        gradient: LinearGradient(
+          colors: [
+            backgroundColor,
+            backgroundColor.withOpacity(0.5),
+          ],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+        ),
         boxShadow: [
           BoxShadow(
             offset: const Offset(0, 4),
@@ -38,21 +42,24 @@ class ButtonWidget extends StatelessWidget {
         borderRadius: const BorderRadius.all(
           Radius.circular(16),
         ),
-        border: Border.all(width: 1,color: borderColor),
+        border: Border.all(width: 1, color: borderColor),
       ),
       child: ElevatedButton(
         style: ButtonStyle(
-            backgroundColor: MaterialStateProperty.all(Colors.transparent),
-            foregroundColor: MaterialStateProperty.all(Colors.transparent),
-            surfaceTintColor: MaterialStateProperty.all(Colors.transparent),
-            elevation: MaterialStateProperty.all(0),
-            overlayColor: MaterialStateProperty.resolveWith((states) {
+          backgroundColor: MaterialStateProperty.all(Colors.transparent),
+          foregroundColor: MaterialStateProperty.all(Colors.transparent),
+          surfaceTintColor: MaterialStateProperty.all(Colors.transparent),
+          elevation: MaterialStateProperty.all(0),
+          overlayColor: MaterialStateProperty.resolveWith(
+            (states) {
               if (states.contains(MaterialState.pressed)) {
                 return Colors.transparent;
               } else {
                 return null;
               }
-            })),
+            },
+          ),
+        ),
         onPressed: onTap,
         child: Text(
           buttonTitle,

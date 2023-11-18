@@ -35,10 +35,14 @@ class _CircularIndicatorState extends State<CircularIndicator> {
       percent: widget.percent,
       center: Text(
         widget.title,
-        style: Theme.of(context).textTheme.caption?.copyWith(
-              letterSpacing: -0.24,
-              fontWeight: medium,
-            ),
+        style: Theme
+            .of(context)
+            .textTheme
+            .caption
+            ?.copyWith(
+            letterSpacing: -0.24,
+            fontWeight: medium
+        ),
       ),
       circularStrokeCap: CircularStrokeCap.round,
       animation: true,

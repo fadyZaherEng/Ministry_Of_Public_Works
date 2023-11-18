@@ -2,7 +2,6 @@ import 'package:aim/generated/l10n.dart';
 import 'package:aim/src/config/utils/constants.dart';
 import 'package:aim/src/config/utils/image_paths.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class EmptyDataWidget extends StatelessWidget {
   const EmptyDataWidget({Key? key}) : super(key: key);
@@ -19,7 +18,9 @@ class EmptyDataWidget extends StatelessWidget {
             width: 150,
             height: 150,
           ),
-          const SizedBox(height: 24),
+          const SizedBox(
+            height: 24,
+          ),
           Text(
             S.of(context).noRecordText,
             textAlign: TextAlign.center,

@@ -59,10 +59,10 @@ class ProjectItemWidget extends StatelessWidget {
                     maxLines: maxLines,
                     textDirection: textDirection,
                     overflow: TextOverflow.ellipsis,
-                    style: Theme.of(context)
-                        .textTheme
-                        .subtitle1
-                        ?.copyWith(letterSpacing: -0.26, color: color),
+                    style: Theme.of(context).textTheme.subtitle1?.copyWith(
+                          letterSpacing: -0.26,
+                          color: color,
+                        ),
                   ),
                 ),
               ],

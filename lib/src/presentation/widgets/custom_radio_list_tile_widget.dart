@@ -30,7 +30,9 @@ class CustomRadioListTileWidget extends StatelessWidget {
             SvgPicture.asset(imagePath),
             const SizedBox(width: 8),
             Text(title),
-            const Expanded(child: SizedBox()),
+            const Expanded(
+              child: SizedBox(),
+            ),
             RadioButtonWidget(
               value: id,
               groupValue: groupValue,

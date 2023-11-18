@@ -65,7 +65,7 @@ class YesNoDialogWidget extends StatelessWidget {
                   ),
                 ),
               ],
-            )
+            ),
           ],
         ),
       ),

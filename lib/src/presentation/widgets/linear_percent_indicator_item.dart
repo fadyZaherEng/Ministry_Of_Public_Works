@@ -21,10 +21,9 @@ class LinearPercentIndicatorItem extends StatelessWidget {
       children: [
         Text(
           text,
-          style: Theme.of(context)
-              .textTheme
-              .bodyText1
-              ?.copyWith(letterSpacing: -0.26),
+          style: Theme.of(context).textTheme.bodyText1?.copyWith(
+                letterSpacing: -0.26,
+              ),
         ),
         const SizedBox(width: 16),
         Expanded(

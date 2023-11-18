@@ -29,8 +29,9 @@ class BottomSheetWidget extends StatelessWidget {
                 width: 95,
                 height: 5,
                 decoration: BoxDecoration(
-                    color: ColorSchema.buttonBorderGray,
-                    borderRadius: BorderRadius.circular(16)),
+                  color: ColorSchema.buttonBorderGray,
+                  borderRadius: BorderRadius.circular(16),
+                ),
               ),
             ),
             Row(

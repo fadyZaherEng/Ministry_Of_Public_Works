@@ -110,7 +110,9 @@ class _SharedScreenState extends State<SharedScreen> {
                       ),
                     ],
                   ),
-                  const SizedBox(height: 16),
+                  const SizedBox(
+                    height: 16,
+                  ),
                 ],
               ),
               widget.content,

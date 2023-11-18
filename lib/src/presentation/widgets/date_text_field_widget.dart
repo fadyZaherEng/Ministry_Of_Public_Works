@@ -38,8 +38,10 @@ class DateTextFieldWidget extends StatelessWidget {
               child: dateTextEditingController.text.isNotEmpty
                   ? InkWell(
                       onTap: onTapClearDateButton,
-                      child: SvgPicture.asset(ImagePaths.close,
-                          fit: BoxFit.scaleDown),
+                      child: SvgPicture.asset(
+                        ImagePaths.close,
+                        fit: BoxFit.scaleDown,
+                      ),
                     )
                   : SvgPicture.asset(
                       ImagePaths.calendar,

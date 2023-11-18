@@ -1,4 +1,3 @@
-import 'package:aim/src/config/themes/color_scheme.dart';
 import 'package:aim/src/presentation/widgets/bar_color_item_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -15,15 +14,13 @@ class BarColorWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 12.0),
       child: Wrap(
-        runSpacing: 8,
-        spacing: 16,
+          runSpacing: 8,
+          spacing: 16,
           children: barColors.map((barColor) {
             return Row(
               mainAxisSize: MainAxisSize.min,
               children: [
-                BarColorItemWidget(
-                  barColor: barColor,
-                ),
+                BarColorItemWidget(barColor: barColor),
               ],
             );
           }).toList()),

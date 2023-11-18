@@ -6,9 +6,11 @@ class BackButtonWidget extends StatelessWidget {
   final String imagePath;
   final Function() onTap;
 
-  const BackButtonWidget(
-      {Key? key, required this.imagePath, required this.onTap})
-      : super(key: key);
+  const BackButtonWidget({
+    Key? key,
+    required this.imagePath,
+    required this.onTap,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

@@ -31,12 +31,13 @@ class ImageWithTitleWidget extends StatelessWidget {
             width: 42,
             height: 42,
             child: Center(
-                child: SvgPicture.asset(
-              image,
-              width: 24,
-              height: 24,
-              color: Colors.white,
-            )),
+              child: SvgPicture.asset(
+                image,
+                width: 24,
+                height: 24,
+                color: Colors.white,
+              ),
+            ),
           ),
           const SizedBox(width: 12),
           Text(

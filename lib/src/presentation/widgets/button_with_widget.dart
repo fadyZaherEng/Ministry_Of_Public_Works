@@ -21,40 +21,41 @@ class ButtonWithWidget extends StatelessWidget {
     return SizedBox(
       height: 45,
       child: ElevatedButton(
-          style: ElevatedButton.styleFrom(
-            padding: const EdgeInsets.symmetric(horizontal: 20),
-            backgroundColor: ColorSchema.primary,
-            elevation: 0,
-            side: const BorderSide(color: ColorSchema.buttonBorderGray),
-            shape: const RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(10),
-                bottomRight: Radius.circular(10),
-              ),
+        style: ElevatedButton.styleFrom(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          backgroundColor: ColorSchema.primary,
+          elevation: 0,
+          side: const BorderSide(color: ColorSchema.buttonBorderGray),
+          shape: const RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(10),
+              bottomRight: Radius.circular(10),
             ),
           ),
-          onPressed: onPressed,
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              if (!isSuffixIcon)
-                SvgPicture.asset(
-                  imagePath,
-                  width: 24,
-                  height: 24,
-                ),
-              if (!isSuffixIcon) const SizedBox(width: 8),
-              Text(title),
-              if (isSuffixIcon) const SizedBox(width: 6),
-              if (isSuffixIcon)
-                SvgPicture.asset(
-                  imagePath,
-                  width: 24,
-                  height: 24,
-                  matchTextDirection: true,
-                ),
-            ],
-          )),
+        ),
+        onPressed: onPressed,
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            if (!isSuffixIcon)
+              SvgPicture.asset(
+                imagePath,
+                width: 24,
+                height: 24,
+              ),
+            if (!isSuffixIcon) const SizedBox(width: 8),
+            Text(title),
+            if (isSuffixIcon) const SizedBox(width: 6),
+            if (isSuffixIcon)
+              SvgPicture.asset(
+                imagePath,
+                width: 24,
+                height: 24,
+                matchTextDirection: true,
+              ),
+          ],
+        ),
+      ),
     );
   }
 }

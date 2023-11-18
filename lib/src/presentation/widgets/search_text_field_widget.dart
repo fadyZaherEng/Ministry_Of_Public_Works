@@ -14,18 +14,18 @@ class SearchTextFieldWidget extends StatefulWidget {
   final Function clearButtonAction;
   final Color? fillColor;
 
-  const SearchTextFieldWidget(
-      {Key? key,
-      required this.controller,
-      required this.labelText,
-      required this.iconPath,
-      this.suffixWidget,
-      this.prefixWidget,
-      required this.onSubmitted,
-      required this.onChange,
-      required this.clearButtonAction,
-      this.fillColor = ColorSchema.white})
-      : super(key: key);
+  const SearchTextFieldWidget({
+    Key? key,
+    required this.controller,
+    required this.labelText,
+    required this.iconPath,
+    this.suffixWidget,
+    this.prefixWidget,
+    required this.onSubmitted,
+    required this.onChange,
+    required this.clearButtonAction,
+    this.fillColor = ColorSchema.white,
+  }) : super(key: key);
 
   @override
   State<SearchTextFieldWidget> createState() => _SearchTextFieldWidgetState();

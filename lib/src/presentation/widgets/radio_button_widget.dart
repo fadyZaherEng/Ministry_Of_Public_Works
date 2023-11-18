@@ -49,9 +49,7 @@ class RadioButtonWidget<T> extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(
-              width: 4,
-            ),
+            const SizedBox(width: 4),
             Text(
               label.toString(),
               style: TextStyle(

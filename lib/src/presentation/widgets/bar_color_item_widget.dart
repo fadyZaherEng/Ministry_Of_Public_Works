@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:aim/src/presentation/widgets/bar_color_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -26,9 +28,10 @@ class BarColorItemWidget extends StatelessWidget {
         ),
         Text(
           barColor.title,
-          style: Theme.of(context).textTheme.caption?.copyWith(
-                letterSpacing: -0.24,
-              ),
+          style: Theme.of(context)
+              .textTheme
+              .caption
+              ?.copyWith(letterSpacing: -0.24),
         ),
       ],
     );

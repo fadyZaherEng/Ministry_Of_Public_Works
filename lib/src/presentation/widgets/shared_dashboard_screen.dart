@@ -139,7 +139,8 @@ class _SharedDashboardScreenState extends State<SharedDashboardScreen> {
                             titleColor: _returnSelectedTitleColor(
                                 !widget.isFilterSelected),
                             backgroundColor: _returnSelectedBackgroundColor(
-                                !widget.isFilterSelected),
+                              !widget.isFilterSelected,
+                            ),
                           ),
                         ),
                       ],

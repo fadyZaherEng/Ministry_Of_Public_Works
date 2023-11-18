@@ -37,7 +37,10 @@ class CardWidgetSkeleton extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
             child: const SkeletonLine(
               style: SkeletonLineStyle(
-                  height: 7, width: 100, maxLength: double.infinity),
+                height: 7,
+                width: 100,
+                maxLength: double.infinity,
+              ),
             ),
           ),
           Container(

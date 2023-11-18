@@ -18,10 +18,10 @@ class DescriptionBottomSheet extends StatelessWidget {
           child: SingleChildScrollView(
             child: Text(
               description,
-              style: Theme.of(context)
-                  .textTheme
-                  .headline2
-                  ?.copyWith(fontSize: 16, fontWeight: FontWeight.w400),
+              style: Theme.of(context).textTheme.headline2?.copyWith(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w400,
+                  ),
             ),
           ),
         ),

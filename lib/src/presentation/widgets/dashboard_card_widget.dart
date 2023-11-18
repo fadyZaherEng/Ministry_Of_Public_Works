@@ -4,10 +4,11 @@ import 'package:flutter/material.dart';
 class DashboardCardWidget extends StatelessWidget {
   final Widget child;
   EdgeInsets padding;
+
   DashboardCardWidget({
     Key? key,
     required this.child,
-    this.padding = const EdgeInsets.symmetric(vertical: 0,horizontal: 0),
+    this.padding = const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
   }) : super(key: key);
 
   @override
@@ -22,7 +23,9 @@ class DashboardCardWidget extends StatelessWidget {
             offset: const Offset(0, 4),
             blurRadius: 16,
             spreadRadius: 0,
-            color: ColorSchema.black.withOpacity(0.1),
+            color: ColorSchema.black.withOpacity(
+              0.1,
+            ),
           )
         ],
       ),

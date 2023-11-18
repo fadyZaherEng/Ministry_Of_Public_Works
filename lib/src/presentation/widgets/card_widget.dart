@@ -35,19 +35,24 @@ class CardWidget extends StatelessWidget {
             decoration: const BoxDecoration(
               color: ColorSchema.projectNameSectionGray,
             ),
-            padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 16),
-            child: Text(projectName,
-                style: Theme.of(context)
-                    .textTheme
-                    .headline2
-                    ?.copyWith(letterSpacing: -0.28)),
+            padding: const EdgeInsets.symmetric(
+              vertical: 16,
+              horizontal: 16,
+            ),
+            child: Text(
+              projectName,
+              style: Theme.of(context).textTheme.headline2?.copyWith(
+                    letterSpacing: -0.28,
+                  ),
+            ),
           ),
           Container(
             decoration: const BoxDecoration(
-                borderRadius: BorderRadius.only(
-                    bottomRight: Radius.circular(8),
-                    bottomLeft: Radius.circular(8)),
-                color: ColorSchema.white),
+              borderRadius: BorderRadius.only(
+                  bottomRight: Radius.circular(8),
+                  bottomLeft: Radius.circular(8)),
+              color: ColorSchema.white,
+            ),
             child: content,
           ),
         ],

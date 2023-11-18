@@ -7,7 +7,10 @@ class SkeletonRowWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Padding(
-      padding: EdgeInsetsDirectional.only(start: 16, end: 16),
+      padding: EdgeInsetsDirectional.only(
+        start: 16,
+        end: 16,
+      ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,

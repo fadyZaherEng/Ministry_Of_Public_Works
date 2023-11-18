@@ -42,17 +42,18 @@ class AppBarWidget extends StatelessWidget {
         Align(
           alignment: Alignment.center,
           child: SizedBox(
-              width: 250,
-              child: Text(
-                title,
-                maxLines: 3,
-                style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      letterSpacing: -0.36,
-                      fontSize: 17,
-                    ),
-                overflow: TextOverflow.ellipsis,
-                textAlign: TextAlign.center,
-              )),
+            width: 250,
+            child: Text(
+              title,
+              maxLines: 3,
+              style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                    letterSpacing: -0.36,
+                    fontSize: 17,
+                  ),
+              overflow: TextOverflow.ellipsis,
+              textAlign: TextAlign.center,
+            ),
+          ),
         ),
         if (isHaveFilter)
           Row(

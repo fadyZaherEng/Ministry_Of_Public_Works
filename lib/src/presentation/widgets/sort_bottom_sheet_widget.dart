@@ -24,14 +24,14 @@ class SortBottomSheetWidget extends StatelessWidget {
         imagePath: sorts[index].imagePath,
         groupValue: selectedSort.id,
         onChange: (value) {
-          Navigator.pop(context, sorts[index]);
+          Navigator.pop(
+            context,
+            sorts[index],
+          );
         },
       ),
     );
   }
 
-  Widget _divider() => const Divider(
-        color: ColorSchema.gray,
-        thickness: 0.2,
-      );
+  Widget _divider() => const Divider(color: ColorSchema.gray, thickness: 0.2);
 }

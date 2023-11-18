@@ -28,12 +28,19 @@ class ButtonWithIconWidget extends StatelessWidget {
       child: ElevatedButton.icon(
         style: ButtonStyle(
           shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-              RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                  side: const BorderSide(color: ColorSchema.buttonBorderGray))),
+            RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+              side: const BorderSide(
+                color: ColorSchema.buttonBorderGray,
+              ),
+            ),
+          ),
           backgroundColor: MaterialStateProperty.all<Color>(backgroundColor),
           side: MaterialStateProperty.all<BorderSide>(
-            const BorderSide(color: ColorSchema.buttonBorderGray, width: 0),
+            const BorderSide(
+              color: ColorSchema.buttonBorderGray,
+              width: 0,
+            ),
           ),
         ),
         icon: SvgPicture.asset(
