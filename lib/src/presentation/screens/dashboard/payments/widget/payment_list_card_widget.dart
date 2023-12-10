@@ -59,7 +59,7 @@ class PaymentListCardWidget extends StatelessWidget {
             ),
             secondItem: _buildProjectItem(
               title: S.of(context).phase,
-              value: "${payment.phase ?? ""}",
+              value: payment.phase ?? "",
               imagePath: ImagePaths.actualDate,
             ),
           ),

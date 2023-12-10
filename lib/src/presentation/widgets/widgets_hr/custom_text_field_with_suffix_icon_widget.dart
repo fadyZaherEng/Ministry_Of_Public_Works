@@ -1,12 +1,4 @@
 import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
-import 'package:aim/src/config/themes/color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

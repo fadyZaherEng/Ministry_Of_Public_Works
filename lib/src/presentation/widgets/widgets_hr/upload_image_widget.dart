@@ -52,7 +52,7 @@ class _UploadImageWidgetState extends State<UploadImageWidget> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              false //  widget.question.answer == null
+              false||true //  widget.question.answer == null
                   ? DottedBorder(
                       color: true // widget.question.notAnswered ?? false
                           ? ColorSchema.red
